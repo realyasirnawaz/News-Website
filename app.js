@@ -17,9 +17,9 @@ let navbtn = document.querySelector('#navbtn');
 //     fecth API    //
 
 
-let api = "pub_802ca099cef34f76aaba233fbe221c7e"
+let api = ""
 async function newaApi() {
-    let apifecth = await fetch (`https://newsdata.io/api/1/latest?apikey=pub_802ca099cef34f76aaba233fbe221c7e&q=${inputvalue} | ${"usa"}`)
+    let apifecth = await fetch (`https://newsdata.io/api/1/latest?apikey=${}&q=${inputvalue} | ${"usa"}`)
     let apiResult = await apifecth.json()
     console.log(apiResult)
     const {results} = apiResult
