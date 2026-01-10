@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body  */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+
+/* ------navbar----*/
+
+#navbtn{
+   border: none;
+    color: rgb(92, 88, 88);
+    background-color: white;
+}
+#navbtn:hover{
+    background-color: white;
+
+}
+#navbar-custum{
+    
+    background-color:#0d6efd; 
+    display: flex;
+    justify-content: center; 
+    margin-top:30px;
+    border-radius: 15px;
+    
+}
+#navbartext{
+    color: white;
+}
+
+
+/* hero section  */
+
+
+.hero-img{
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    background: url(https://mediaengagement.org/wp-content/uploads/2022/12/News-Desert-Web-Tile-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+
+/* load More Btn */
+
+#load-moreBtn{
+   width: 100%;
+   margin-top: 30px;
+   font-size: 25px;
+
+}
+
+/* cards  */
+
+.childCard{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+.new-card{
+      /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+      border: none; */
+}
+.cardsBtn{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+   @media screen and (min-width:280px ) and (max-width:770px ) {
+        .hero-img{
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    background-color: red;
+    background: url(https://mediaengagement.org/wp-content/uploads/2022/12/News-Desert-Web-Tile-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+   }
+
+  
+ 
+
+   .childCard{
+     justify-content: center;
+    
+   }
+
+
+   }
+   
