@@ -1,8 +1,3 @@
-
-
-/// https://newsdata.io/api/1/latest?apikey=pub_802ca099cef34f76aaba233fbe221c7e&country=au,us
-
-
 let cardsContaner = document.querySelector('.childCard');
 const value = document.getElementById('navInput');
 let navbtn = document.querySelector('#navbtn');
@@ -46,8 +41,7 @@ async function newaApi() {
   </div>
   </div>
 ` 
-        cardsContaner.appendChild(card)
-        // console.log("function ended")
+        cardsContaner.appendChild(card)      
     });
    
 }
