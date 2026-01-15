@@ -17,7 +17,7 @@ let navbtn = document.querySelector('#navbtn');
 newaApi()
 // fetch API
 async function newaApi() {
-  let api = "pub_802ca099cef34f76aaba233fbe221c7e"
+  let api = ""
     let inputvalue = value.value|| "usa"
     let apifecth = await fetch (`https://newsdata.io/api/1/latest?apikey=${api}&q=${inputvalue}`)
     let apiResult = await apifecth.json()
